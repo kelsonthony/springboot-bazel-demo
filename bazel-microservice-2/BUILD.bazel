@@ -1,0 +1,11 @@
+load("//:maven_install.json", "maven_install")
+
+java_binary (
+    name = "bazel-microservice-2",
+    srcs = glob(["src/main/java/com/kelsonthony/*.java"]),
+    main_class = "com.kelsonthony.BazelMicroservice2Application",
+    deps = [
+            "@maven//:org_springframework_boot_spring_boot_starter_web",
+            "@maven//:org_springframework_boot_spring_boot_starter_test",
+            ]
+)
