@@ -2,7 +2,7 @@ package com.kelsonthony.bazelmicroservice1;
 
 
 
-// import org.springframework.boot.SpringApplication;
+ //import org.springframework.boot.SpringApplication;
 // import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 // @SpringBootApplication
@@ -15,7 +15,6 @@ package com.kelsonthony.bazelmicroservice1;
 // }
 public class BazelMicroservice1Application {
 	public static void main(String[] args) {
-		
 		System.out.println("Hello World");
 	}
 }
